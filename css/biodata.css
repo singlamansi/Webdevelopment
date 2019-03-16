@@ -1,0 +1,115 @@
+body.bio
+{
+	background-size: cover;
+  background-image: url('hy.jpg');
+  
+}
+div{
+  position:absolute;
+  background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+#div1{
+  top:00%;
+  left: 0%;
+  height: 17%;
+  width: 100%;
+  color: blue;
+  background-color:rgb(88,24,69);
+}
+#div4{
+  top:30%;
+  left:5%;
+  background-color:rgb(255,225,255);
+  height:40%;
+  width: 90%;
+}
+#img3
+{
+left:50px;
+height:100px;
+width:100px;
+background-color:rgb(255,255,53);
+border-radius:30%;
+animation-name:example;
+animation-duration:10s;
+animation-iteration-count:infinite;
+animation-direction:normal;
+}
+
+@keyframes example{
+0%{
+background-color:red ; transform:rotate(45deg);
+}
+40%{background-color:yellow;}
+50%{transform:translate(1200px,0px)}
+100%{
+background-color:blue ; transform:rotate(180deg);
+}
+}
+p{
+  text-align: justify; 
+  font-size: 25px
+}
+ol {
+  background: rgb(88,24,69);
+  padding: 20px;
+}
+ul {
+  background: rgb(88,24,69);
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  font-size: 23px;
+  margin : 5px;
+ 
+}
+
+ul li {
+  background: #ffe5e5;
+  padding: 5px;
+  font-size: 23px;
+  margin : 5px;
+ 
+}
+
+A{
+  text-decoration:none;
+  color: white;
+  position: absolute;
+}
+#a1{
+  top:25%;
+  left:30%;
+}
+#a2{
+  top:25%;
+  left:37%;
+}
+#a3{
+  top:25%;
+  left:46%;
+}
+#a4{
+  top:25%;
+  left:58%;
+}
+#a5{
+  top:25%;
+  left:67%;
+}
+#a6{
+  top:25%;
+  left:80%;
+}
+#a7{
+  top:25%;
+  left:88%;
+}

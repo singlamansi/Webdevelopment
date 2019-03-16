@@ -1,0 +1,116 @@
+BODY.home{
+ background-size: cover;
+  background-image:linear-gradient(to right, rgba(65,105,225,0.5),rgba(153,50,204,0.5)), url('e.jpg');
+}
+div{
+  position:absolute;
+  background-size: cover;
+}
+#div1{
+  top:00%;
+  left: 0%;
+  height: 17%;
+  width: 100%;
+  color: blue;
+  background-color:rgb(88,24,69);
+}
+#img1
+{
+	height:50%;
+	width:50%;
+	left:15%;
+	top:20%;
+	position:absolute;
+}
+#img2
+{
+	height:50%;
+	width:45%;
+	left:75%;
+	top:20%;
+	position:absolute;
+}
+#img1:hover
+{
+	height:50%;
+	width:50%;
+	left:15%;
+	top:20%;
+	position:absolute;
+	transform:rotate(45deg);
+}
+#img2:hover
+{
+	height:50%;
+	width:45%;
+	left:75%;
+	top:20%;
+	position:absolute;
+	transform:rotate(45deg);
+}
+#img3
+{
+height:100px;
+width:100px;
+background-color:rgb(255,255,53);
+border-radius:30%;
+animation-name:example;
+animation-duration:10s;
+animation-iteration-count:infinite;
+animation-direction:normal;
+}
+@keyframes example{
+0%{
+background-color:red ; transform:rotate(45deg);
+}
+40%{background-color:yellow;}
+50%{transform:translate(1400px,0px)}
+70%{transform:translate(1400px,500px)}
+80%{transform:translate(0px,500px)}
+100%{
+background-color:blue ; transform:rotate(180deg);
+}
+}
+#div2{
+  top:20%;
+  left:0%;
+ border-radius: 25px;
+  height:100%;
+  width: 50%;
+  
+}
+A{
+  text-decoration:none;
+  color: white;
+  position: absolute;
+  
+  
+}
+#a1{
+  top:25%;
+  left:30%;
+}
+#a2{
+  top:25%;
+  left:37%;
+}
+#a3{
+  top:25%;
+  left:46%;
+}
+#a4{
+  top:25%;
+  left:58%;
+}
+#a5{
+  top:25%;
+  left:67%;
+}
+#a6{
+  top:25%;
+  left:80%;
+}
+#a7{
+  top:25%;
+  left:88%;
+}

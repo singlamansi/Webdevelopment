@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<LINK REL="STYLESHEET"  HREF="qualification.CSS" TYPE="TEXT/CSS">
+</HEAD>
+<BODY class="qua">
+<DIV ID=DIV1><font size=5>
+<div class="topnav">
+<IMG STYLE="position:topleft; TOP:100px; LEFT:170px; WIDTH:100px; HEIGHT:120px" SRC="sd.jpg">
+</div>
+<A id=a1 href="home page.html">Home</A>
+<A id=a2 href="aboutmyself.html">Hobbies</A>
+<A id=a3 href="qualification.html">Qualification</A>
+<A id=a4 href="biodata.html">Bio-Data</A>
+<A id=a5 href="achievement.html">Achievements</A>
+<A id=a6 href="dreams.html">Dreams</A>
+<A id=a7 href="about us.html">Interpersonel skill</A>
+</font>
+</DIV>
+<div id=div4><img  id=img3 src="q.jpg" width="50%" height="100%" >
+	
+<hr>
+<center><b><font size=6>Qualification</font></b></center>
+<ul>
+	<li> 	Got under 500 rank and Secured Platinum Certificate in Digital Champion Ship by Reliance jio.
+
+</li>
+	
+	
+</ul><br>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+<TITLE>Layers in the TCP/IP Protocol Suite</TITLE>
+<H2><b><u><CENTER><font color="D23195" size=7>Layers in the TCP/IP Protocol Suite</font></CENTER></u></b></H2>
+</HEAD>
+<BODY><A name=up></A>
+	<font align=right><h3><A href=#end>Go down </A></h3></font>
+	<hr>
+	<TABLE height=100% width=100% >
+	<TR HEIGHT=100%>
+	<TD WIDTH=20%>
+		<TABLE bgcolor="FCDAE7" HEIGHT=100% WIDTH=100% BORDER=1>
+		<TR height=3%>
+		<TD><center><A href="homepage.html">Introduction of TCP/IP</A></center></TD>
+		</TR>
+		<TR height=3%>
+		<TD><center><A href="homepage.html">Comparison between OSI & TCP/IP</A></center></TD>
+		</TR >
+		<Tr height=3%>
+		<TD><center><A href=#intro>Layers in the TCP/IP Protocol Suite</A></ center></TD>
+		</TR>
+		<TR height=3%>
+		<TD><center><A href=#phy>Physical Layer</A></center></TD>
+		</TR>
+		<TR height=3%>
+		<TD><center><A href=#data>Data Link Layer</A></center></TD>
+		</TR>
+		<TR height=3%>
+		<TD><center><A href="page2.html">Network Layer</A></center></TD>
+		</TR>
+		<TR height=3%>
+		<TD><center><A href="page2.html">Transport Layer</A></center></TD>
+		</TR>
+		<TR height=3%>
+		<TD><center><A href="page2.html">Application Layer</A></center></TD>
+		</TR>
+		<tr><td></td>
+		</tr>
+		</table>
+	</td>
+	<TD><p><font size=5><A name=intro></A>In this section, we briefly discuss the purpose of each layer in the TCP/IP protocol suite.
+When we study the purpose of each layer, it is easier to think of a private internet,
+instead of the global Internet. We assume that we want to use the TCP/IP suite in a small,
+private internet. Such an internet is made up of several small networks, which we call
+links. A link is a network that allows a set of computers to communicate with each other.
+For example, if all computers in an office are wired together, the connection makes a
+link. If several computers belonging to a private company are connected via a satellite
+channel, the connection is a link. A link, as we discussed in Chapter 3, can be a LAN
+(local area network) serving a small area or a WAN (wide area network) serving a larger
+area. We also assume that different links are connected together by devices called routers
+or switches that route the data to reach their final destinations. Figure 2.9 shows our
+imaginary internet that is used to show the purpose of each layer. We have six links and
+four routers (R1 to R4). We have shown only two computers, A and B.</font></P>
+<center><img src="images/a3.jpg" height=90% width=50%></center><hr>
+	<center><b><font color="D23195" size=6><A name=phy></A>Physical Layer</font></b></center>
+	<p><font size=5>TCP/IP does not define any specific protocol for the physical layer. It supports all of the
+standard and proprietary protocols. At this level, the communication is between two hops
+or nodes, either a computer or router. The unit of communication is a single bit. When the
+connection is established between the two nodes, a stream of bits is flowing between
+them. The physical layer, however, treats each bit individually. Figure 2.10 shows the
+communication between nodes. We are assuming that at this moment the two computers
+have discovered that the most efficient way to communicate with each other is via routers
+R1, R3, and R4. How this decision is made is the subject of some future chapters.
+Note that if a node is connected to n links, it needs n physical-layer protocols, one for
+each link. The reason is that different links may use different physical-layer protocols. The
+figure, however, shows only physical layers involved in the communication. Each computer
+involves with only one link; each router involves with only two links. As Figure 2.10
+shows, the journey of bits between computer A and computer B is made of four independent
+short trips. Computer A sends each bit to router R1 in the format of the protocol used
+by link 1. Router 1 sends each bit to router R3 in the format dictated by the protocol used
+by link 3. And so on. Router R1 has two three physical layers (two are shown in our scenario).
+The layer connected to link 1 receives bits according to the format of the protocol</font></P>
+<center><img src="images/a4.jpg" height=40% width=65%></center>
+	<p><font size=5>used by link 1; the layer connected to link 3 sends bits according to the format of the protocol
+used by link 3. It is the same situation with the other two routers involved in the
+communication.The responsibility of the physical layer, in addition to delivery of bits, matches
+with what mentioned for the physical layer of the OSI model, but it mostly depends on
+the underlying technologies that provide links. We see in the next chapter that they are,
+for example, many protocols for the physical layer of LANs or WANs.</font></P><hr>
+	<center><b><font color="D23195" size=6><A name=data></A>Data Link Layer</font></b></center>
+	<p><font size=5>TCP/IP does not define any specific protocol for the data link layer either. It supports
+all of the standard and proprietary protocols. At this level, the communication is also
+between two hops or nodes. The unit of communication however, is a packet called a
+frame. A frame is a packet that encapsulates the data received from the network layer
+with an added header and sometimes a trailer. The head, among other communication
+information, includes the source and destination of frame. The destination address is
+needed to define the right recipient of the frame because many nodes may have been
+connected to the link. The source address is needed for possible response or acknowledgment
+as may be required by some protocols. Figure 2.11 shows the communication
+at the data link layer.
+Note that the frame that is travelling between computer A and router R1 may be
+different from the one travelling between router R1 and R3. When the frame is received
+by router R1, this router passes the frame to the data link layer protocol shown at the
+left. The frame is opened, the data are removed. The data are then passed to the data</p><font>
+<center><img src="images/a5.jpg" height=20% width=65%></center>
+<p><font size=5>link layer protocol shown at the right to create a new frame to be sent to the router R3.
+The reason is that the two links, link 1 and link 3, may be using different protocols and
+require frames of different formats. Note also that the figure does not show the physical
+movement of frames; the physical movement happens only at the physical layer. The
+two nodes communicate logically at the data link layer, not physically. In other words,
+the data link layer at router R1 only thinks that a frame has been sent directly from the
+data link layer at computer A. What is sent from A to R1 is a stream of bits from one
+physical layer to another. Since a frame at A is transformed to a stream of bits, and the
+bits at R1 are transformed to a frame, it gives this impression to the two data link layer
+that a frame has been exchanged.</p><font>
+	
+	</TD>
+	</tr>
+	</table>
+	<font align=center><h3><A href=#up>Go up </A></h3></font>
+	<hr>
+	<table height=5% width=100%>
+	</tr><A name=end></A>
+	<tr><td><center><A href="homepage.html">Previous</A></center></td><td><A href="homepage.html">Home</A></td><td><left><A href="page2.html">Next</A></left></td></tr>
+	</table><hr>
+</body>
+</html>

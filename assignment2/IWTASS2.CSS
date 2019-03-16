@@ -1,0 +1,104 @@
+BODY{
+  background-color:rgb(246,215,254);
+  background-image: url('bg.png');
+}
+div{
+  position:absolute;
+  background-size: cover;
+}
+#div1{
+  top:00%;
+  left: 0%;
+  height: 17%;
+  width: 100%;
+  color: blue;
+  background-color:rgb(88,24,69);
+}
+#div2{
+  top:20%;
+  left:0%;
+  background-color:rgb(88,24,69);
+  height:100%;
+  width: 50%;
+  background-image:url('vintage.jpg');
+}
+#div3{
+  top:20%;
+  left:55%;
+  background-color:rgb(88,24,69);
+  height:100%;
+  width: 50%;
+  background-image:url('positive.jpg');
+}
+#div4{
+  top:20%;
+  left:5%;
+  background-color:rgb(255,225,255);
+  height:40%;
+  width: 90%;
+}
+#div5{
+  top:25%;
+  height: 100%;
+  width:50%;
+  left:30%;
+  
+}
+p{
+  text-align: justify; 
+  font-size: 25px
+}
+ol {
+  background: rgb(88,24,69);
+  padding: 20px;
+}
+ul {
+  background: rgb(88,24,69);
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  font-size: 23px;
+  margin : 5px;
+ 
+}
+
+ul li {
+  background: #ffe5e5;
+  padding: 5px;
+  font-size: 23px;
+  margin : 5px;
+ 
+}
+
+A{
+  text-decoration:none;
+  color: white;
+  position: absolute;
+}
+#a1{
+  top:25%;
+  left:40%;
+}
+#a2{
+  top:25%;
+  left:47%;
+}
+#a3{
+  top:25%;
+  left:56%;
+}
+#a4{
+  top:25%;
+  left:68%;
+}
+#a5{
+  top:25%;
+  left:77%;
+}
+#a6{
+  top:25%;
+  left:90%;
+}

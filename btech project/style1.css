@@ -1,0 +1,60 @@
+body
+{
+	background:lightblue;
+}
+A{
+	height:10%;width=5%;color:rgb(255,255,255);letter-spacing:1;text-align:center;position:absolute;text-decoration: none;
+	}
+	#HP1 {left:61%;top:5%}
+	#HP2 {left:67%;top:5%}
+	#HP3 {left:73%;top:5%}
+	#HP4 {left:83%;top:5%}
+	#HP5 {left:88%;top:5%}
+	#HP6 {left:95%;top:5%}
+{
+h1
+{
+	color:black;
+	text-align:center;
+	padding:80px 30px 8px 30px;
+	margin:0 0 25px 25px;
+	font-family:"roboto",sans-serif;
+}
+h3
+{
+	color:black;
+	text-align:center;
+	padding:8px 30px 10px 30px;
+	margin:0 0 25px 25px;
+	font-family:"roboto",sans-serif;
+}
+.OrderMedicine-form
+{
+	text-align:center;
+	margin:auto;
+	background:#f2f2f2;
+	width:70%;
+	height:40%;
+}
+.OrderMedicine-form input
+{
+	background:#f2f2f2;
+	width:80%;
+	margin:0 0 20px;
+	padding:10px;
+	font-size:20px;
+}
+.OrderMedicine-form  button
+{
+	font-family:"roboto",sans-serif;
+	text-transform:Uppercase;
+	background:#4caf50;
+	width:40%;
+	padding:10px;
+	font-size:25px;
+	cursor:pointer;
+}
+.OrderMedicine-form button:hover,.OrderMedicine-form :active
+{
+	background:#43a047;
+}
